@@ -1,11 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        System.out.println("\n Contoh 1: Variables dan Conditionals ");
-        contohVariabelDanKondisional();
-        
-        System.out.println("\n Contoh 2: Array dan Looping ");
-        contohArrayDanLooping();
+       
     }
     
      public static void contohVariabelDanKondisional() {
