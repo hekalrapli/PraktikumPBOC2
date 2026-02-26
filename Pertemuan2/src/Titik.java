@@ -52,24 +52,24 @@ public class Titik {
             else return 3;
         }
     }
-
+    
     double getJarakPusat() {
         return Math.sqrt((this.absis * this.absis) + (this.ordinat * this.ordinat));
     }
-
+    
     double getJarak(Titik T) {
         double x = this.absis - T.getAbsis();
         double y = this.ordinat - T.getOrdinat();
-         return Math.sqrt(x*x + y*y);
+        return Math.sqrt(x*x + y*y);
     }
-
+    
     void refleksiX() {
         this.ordinat *= -1;
     }
     void refleksiY() {
         this.absis *= -1;
     }
-
+    
     Titik getRefleksiX() {
         Titik result = new Titik();
         result.setAbsis(this.absis);
@@ -77,7 +77,7 @@ public class Titik {
         return result;
     }
     Titik getRefleksiY() {
-         Titik result = new Titik();
+        Titik result = new Titik();
         result.setAbsis(this.absis *-1);
         result.setOrdinat(this.ordinat);
         return result;
@@ -86,6 +86,7 @@ public class Titik {
     void printTitik() {
         System.out.println("Titik (" + absis + "," + ordinat + ")");
     }
+
 
   
 }
