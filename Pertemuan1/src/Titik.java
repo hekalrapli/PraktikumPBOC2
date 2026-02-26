@@ -4,7 +4,6 @@
    tanggal : 19 Februari 2026
  */
 
-
 public class Titik {
     double absis;
     double ordinat;
