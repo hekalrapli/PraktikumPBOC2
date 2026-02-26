@@ -8,10 +8,21 @@
 public class Titik {
     double absis;
     double ordinat;
+    static int counterTitik = 0;
 
     Titik() {
-        absis = 0;
-        ordinat = 0;
+        this(0,0);
+      
+    }
+    
+    public Titik(double x, double y) {
+        this.absis = x;
+        this.ordinat = y;
+        counterTitik++;
+    }
+
+    static int getCounterTitik() {
+        return counterTitik;
     }
 
     double getAbsis() {
@@ -33,6 +44,7 @@ public class Titik {
     }
 
     void printTitik() {
-        System.out.println("Titik  : (" + absis + "," + ordinat + ")");
+        System.out.println("Titik : (" + this.absis + "," + this.ordinat + ")" );
     }
+
 }
