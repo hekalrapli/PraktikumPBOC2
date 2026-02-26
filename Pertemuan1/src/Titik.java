@@ -44,7 +44,7 @@ public class Titik {
     }
 
     void printTitik() {
-        System.out.println("Titik : (" + this.absis + "," + this.ordinat + ")" );
+        System.out.println("Titik: (" + this.absis + "," + this.ordinat + ")" );
     }
 
 }
