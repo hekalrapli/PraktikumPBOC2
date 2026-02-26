@@ -33,6 +33,6 @@ public class Titik {
     }
 
     void printTitik() {
-        System.out.println("Titik (" + absis + "," + ordinat + ")");
+        System.out.println("Titik  : (" + absis + "," + ordinat + ")");
     }
 }
