@@ -5,9 +5,9 @@
  */
 
 public class Garis {
-    Titik awal;
-    Titik akhir;
-    static int counterGaris = 0;
+    private Titik awal;
+    private Titik akhir;
+    private static int counterGaris = 0;
 
     public Garis(Titik P, Titik Q) {
         this.awal = P;
@@ -26,7 +26,7 @@ public class Garis {
         return this.akhir;
     }
 
-    static int getCounterGaris() {
+    public static int getCounterGaris() {
         return counterGaris;
     }
 

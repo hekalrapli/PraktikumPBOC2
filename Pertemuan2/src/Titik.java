@@ -6,11 +6,11 @@
 
 
 public class Titik {
-    double absis;
-    double ordinat;
-    static int counterTitik = 0;
+   private double absis;
+    private double ordinat;
+    private static int counterTitik = 0;
 
-    Titik() {
+    public Titik() {
         this(0,0);
       
     }
@@ -21,29 +21,29 @@ public class Titik {
         counterTitik++;
     }
 
-    static int getCounterTitik() {
+    public  static int getCounterTitik() {
         return counterTitik;
     }
 
-    double getAbsis() {
+     public double getAbsis() {
         return this.absis;
     }
-    double getOrdinat() {
+    public  double getOrdinat() {
         return this.ordinat;
     }
     
-    void setAbsis(double x) {
+    public  void setAbsis(double x) {
         this.absis = x;
     }
-    void setOrdinat(double y) {
+     public void setOrdinat(double y) {
         this.ordinat = y;
     }
-    void geser(double x, double y) {
+    public  void geser(double x, double y) {
         this.absis += x;
         this.ordinat +=y;
     }
 
-    int getKuadran() {
+    public  int getKuadran() {
         if(this.absis > 0) {
             if(this.ordinat> 0) return 1;
             else return 4;
@@ -53,37 +53,37 @@ public class Titik {
         }
     }
     
-    double getJarakPusat() {
+     public double getJarakPusat() {
         return Math.sqrt((this.absis * this.absis) + (this.ordinat * this.ordinat));
     }
     
-    double getJarak(Titik T) {
+    public  double getJarak(Titik T) {
         double x = this.absis - T.getAbsis();
         double y = this.ordinat - T.getOrdinat();
         return Math.sqrt(x*x + y*y);
     }
     
-    void refleksiX() {
+     public void refleksiX() {
         this.ordinat *= -1;
     }
-    void refleksiY() {
+    public  void refleksiY() {
         this.absis *= -1;
     }
     
-    Titik getRefleksiX() {
+    public  Titik getRefleksiX() {
         Titik result = new Titik();
         result.setAbsis(this.absis);
         result.setOrdinat(this.ordinat *-1);
         return result;
     }
-    Titik getRefleksiY() {
+    public  Titik getRefleksiY() {
         Titik result = new Titik();
         result.setAbsis(this.absis *-1);
         result.setOrdinat(this.ordinat);
         return result;
     }
 
-    void printTitik() {
+    public  void printTitik() {
         System.out.println("Titik (" + absis + "," + ordinat + ")");
     }
 
