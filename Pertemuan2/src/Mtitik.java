@@ -28,14 +28,14 @@ public class Mtitik {
         Titik T4 = new Titik();
         T4.setAbsis(3);
         T4.setOrdinat(4);
-
+         System.out.println("Absis T4 : " + T4.getAbsis() + ",Ordinat T4 : " + T4.getOrdinat());
         Titik T5 = new Titik();
         T5.setAbsis(12);
         T5.setOrdinat(5);
 
         System.out.println("Jumlah titik : " + Titik.getCounterTitik());
         System.out.println("Jarak : " + T4.getJarakPusat());
-        System.out.println("Jarak : " + T4.getJarak(T5));
+        System.out.println("Jarak T4 dengan T5 : " + T4.getJarak(T5));
         System.out.println("Kuadran T4 : " + T4.getKuadran());
         T5.refleksiX();
         System.out.println("Absis T5 : " + T5.getAbsis() + ",Ordinat T5 : " + T5.getOrdinat());
