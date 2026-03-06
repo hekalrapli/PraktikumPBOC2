@@ -33,7 +33,7 @@ public class Mahasiswa {
    }
 
   /*SELEKTOR */
-   public String getNip() {
+   public String getNim() {
      return nim;
    }
    public String getNama() {
@@ -92,13 +92,13 @@ public class Mahasiswa {
 
    public void printMhs() {
          System.out.println("Nama Mahasiswa : " + this.getNama());
-        System.out.println("NIM  : " + this.getNip());
+        System.out.println("NIM  : " + this.getNim());
         System.out.println("Prodi  : " + this.getProdi());
    }
 
    public void printDetailMhs() {
        System.out.println("Nama Mahsiswa : " + this.getNama());
-        System.out.println("NIM  : " + this.getNip());
+        System.out.println("NIM  : " + this.getNim());
         System.out.println("Prodi  : " + this.getProdi());
 
         System.out.println();
