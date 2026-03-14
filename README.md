@@ -1,1 +1,1 @@
-I left my heart in Teknik Industri
+There must be a good reason that you're gone
