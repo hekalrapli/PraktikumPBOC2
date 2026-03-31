@@ -1,3 +1,8 @@
+/* Nama file  : MManusia.java
+   Deskripsi  :berisi omplementasi dari class-class lain
+   pembuat : Haikal Rafli Sembiring/24060124130079
+   tanggal : 31 Maret 2026
+ */
 import java.time.LocalDate;
 
 public class MManusia {
