@@ -11,7 +11,7 @@ public class Main {
         Civitasakademika D1 = new Dosen("Rinaldi Munir", "19685088");
         Civitasakademika D2 = new Dosen("Tuwankotta", "1609087");
 
-        Seminar S1 = new Seminar(100);
+        Seminar S1 = new Seminar();
 
         Civitasakademika M1 = new Mahasiswa("Fitria Izzati", "13424046",(Dosen)D2);
         Civitasakademika M2 = new Mahasiswa("Kloce Saragih", "13524047",(Dosen)D1);

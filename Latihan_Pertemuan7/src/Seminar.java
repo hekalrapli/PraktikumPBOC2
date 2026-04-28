@@ -9,13 +9,13 @@ public class Seminar {
 
     /* Atribut */
 
-    Civitasakademika[] pesertas;
+    Civitasakademika[] pesertas = new Civitasakademika[100];
     private  int banyakpeserta = 0;
 
     /* Method */
     /* Konstruktor */
-    public Seminar(int kapasitas) {
-        this.pesertas = new Civitasakademika[kapasitas];
+    public Seminar(){
+      
         this.banyakpeserta = 0;
     }
 
@@ -35,7 +35,7 @@ public class Seminar {
     
 
     public void registrasi(Civitasakademika c) {
-        if(banyakpeserta < pesertas.length) {
+        if(banyakpeserta < 100) {
             pesertas[banyakpeserta] =c;
             banyakpeserta++;
         }
