@@ -100,10 +100,10 @@ public class Main {
 
 
          /* C */
-         Datum<Kucing> kucing1 = new Datum<>(new Anggora("Rara", 2.5));
-         Datum<Kucing> kucing2 = new Datum<>(new Kembangtelon("Lala", 3.5));
-         System.out.println("Bobot Kucing 1 : " + kucing1.getIsi().getBobot() + " kg");
-         System.out.println("Bobot Kucing 2 : " + kucing2.getIsi().getBobot() + " kg");
+         Kucing kucing1 = new Anggora("Rara", 2.5);
+         Kucing kucing2 = new Kembangtelon("Lala", 3.5);
+         System.out.println("Bobot Kucing 1 : " + kucing1.getBobot() + " kg");
+         System.out.println("Bobot Kucing 2 : " + kucing2.getBobot() + " kg");
          System.out.println("Jumlah bobot keduanya :  " + OperatorGenerik.Bobot2(kucing1, kucing2) + " kg");
 
 

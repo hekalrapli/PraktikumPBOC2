@@ -13,7 +13,7 @@ public class OperatorGenerik {
             b.setIsi(temp);
         }
 
-        public static <T> double Bobot2(Datum<Kucing> a, Datum<Kucing>b) {
-            return a.getIsi().getBobot() + b.getIsi().getBobot();
+        public static <T extends Kucing> double Bobot2(T a, T b) {
+            return a.getBobot() + b.getBobot();
         }
 }
