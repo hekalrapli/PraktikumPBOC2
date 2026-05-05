@@ -8,15 +8,19 @@ import java.util.Arrays;
 
 public class Data<T> {
     
+    /*Atribut */
     private static final int kapasitas = 100;
     private final T ruang[];
     private int banyak;
 
+      /*Method */
+    /*Konstruktor */
     public Data(T[] ruang) {
         this.ruang = Arrays.copyOf(ruang, kapasitas);
         this.banyak = 0;
     }
 
+    /*Getter */
     public T getIsi(int posisi) {
         if (posisi < 1 || posisi > kapasitas) {
             return null;
@@ -24,14 +28,17 @@ public class Data<T> {
         return ruang[posisi-1];
     }
 
+     public int getSize() {
+        return this.banyak;
+    }
+
+
+    /*Setter */
     public void setIsi(int posisi, T objek) {
         if (ruang[posisi-1] == null) {
             banyak++;
         }
         ruang[posisi-1] = objek;
     }
-    public int getSize() {
-        return this.banyak;
-    }
-
+   
 }

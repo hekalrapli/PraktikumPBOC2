@@ -5,6 +5,10 @@
  */
 
 public class Kembangtelon extends Kucing {
+
+    
+    /*Method */
+    /*Konstruktor */
     public Kembangtelon(String nama, double bobot) {
         super(nama, bobot);
     }

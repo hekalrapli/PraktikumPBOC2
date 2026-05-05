@@ -5,6 +5,9 @@
  */
 
 public class Anggora extends Kucing {
+
+    /*Method */
+    /*Konstruktor */
     public Anggora(String nama, double bobot) {
         super(nama, bobot);
     }
