@@ -1,3 +1,9 @@
+/* Nama file  : MainTeman.java
+   Deskripsi  :  berisi aplikasi dari class-class lain 
+   pembuat : Haikal Rafli Sembiring/24060124130079
+   tanggal : 11 Mei 2026
+ */
+
 public class MainTeman {
     
     public static void main(String[] args) {

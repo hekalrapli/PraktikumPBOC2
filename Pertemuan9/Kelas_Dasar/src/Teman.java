@@ -1,3 +1,9 @@
+/* Nama file  : Teman.java
+   Deskripsi  : realisasi atribut dan method pada class Teman
+   pembuat : Haikal Rafli Sembiring/24060124130079
+   tanggal : 11 Mei 2026
+ */
+
 import java.util.ArrayList;
 
 public class Teman {
