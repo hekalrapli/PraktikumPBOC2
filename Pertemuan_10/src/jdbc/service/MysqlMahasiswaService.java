@@ -155,7 +155,7 @@ public class MysqlMahasiswaService {
    }
 
    public List<Mahasiswa> getAll() {
-      List<Mahasiswa> list = new ArrayList();
+      List<Mahasiswa> list = new ArrayList<>();
       String sql = "SELECT * FROM mahasiswa";
 
       try {
