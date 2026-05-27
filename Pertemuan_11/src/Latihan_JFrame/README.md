@@ -1,6 +1,6 @@
 # GUI dan Collection
 
-Dokumen ini menjelaskan perbedaan penggunaan beberapa jenis collection, yaitu List, Set, dan Map. Setiap collection memiliki karakteristik yang berbeda dalam menyimpan dan mengakses data.
+
 
 ## 1. List
 
