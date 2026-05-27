@@ -26,5 +26,6 @@ Map merupakan collection yang menyimpan data dalam bentuk pasangan **key** dan *
 
 Setiap elemen pada Map memiliki kunci yang digunakan untuk mengakses nilainya. Pada Map, key tidak boleh duplikat. Jika terdapat key yang sama, maka value sebelumnya dapat digantikan oleh value yang baru.
 
-<img width="392" height="314" alt="Contoh Map" src="https://github.com/user-attachments/assets/bc9d-4585-3dfe-44d0-a53a-591ae4392778" />
+<img width="393" height="317" alt="image" src="https://github.com/user-attachments/assets/bdb4ae8e-e336-4537-a9ce-06cb68817fad" />
+
 
