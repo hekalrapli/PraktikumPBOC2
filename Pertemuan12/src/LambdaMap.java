@@ -1,3 +1,9 @@
+/* Nama file  : LambdaMap.java
+   Deskripsi  :berisi atribut dan method dari class LambdaMap
+   pembuat : Haikal Rafli Sembiring/24060124130079
+   tanggal : 6 Juni 2026
+ */
+
 import java.util.*;
 public class LambdaMap {
      public static void main(String[] args) {

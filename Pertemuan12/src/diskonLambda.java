@@ -1,4 +1,8 @@
-
+/* Nama file  : diskonLambda.java
+   Deskripsi  :berisi atribut dan method dari class diskonLambda
+   pembuat : Haikal Rafli Sembiring/24060124130079
+   tanggal : 6 Juni 2026
+ */
 
 interface IDiskon {
     public double hitungDiskon(int harga);
